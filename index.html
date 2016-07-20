@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LoopGIFS</title>
+  <style>
+    body {margin:0}
+    #gifs > img {
+      display: block;
+      float: left;
+      width: 49vw;
+      height: 50vh;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div id="gifs">
+    loading gifs....
+  </div>
+
+  <!--<script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.import('lib/main.js');
+  </script>-->
+
+  <!-- after running 'jspm bundle-sfx --minify lib/main'-->
+  <script src="build.js"></script>
+</body>
+</html>
